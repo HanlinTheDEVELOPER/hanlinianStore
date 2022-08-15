@@ -168,20 +168,20 @@ const itemFun = (data) => {
   });
 
   //for itemCard animation
-//   const observer = new IntersectionObserver((entries) => {
-//     entries.forEach((entry) => {
-//       if (entry.isIntersecting) {
-//         entry.target.classList.add("itemCard-animate");
-//         return;
-//       }
-//       entry.target.classList.remove("itemCard-animate");
-//     });
-//   });
-//   const cardAll = document.querySelectorAll(".itemCard");
-//   cardAll.forEach((element) => {
-//     observer.observe(element);
-//   });
-// };
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("itemCard-animate");
+        return;
+      }
+      entry.target.classList.remove("itemCard-animate");
+    });
+  });
+  const cardAll = document.querySelectorAll(".itemCard");
+  cardAll.forEach((element) => {
+    observer.observe(element);
+  });
+};
 
 //for small screen menu
 const smallScreenMenu = document.querySelector("#smallMenu");
