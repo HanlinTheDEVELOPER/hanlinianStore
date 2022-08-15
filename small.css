@@ -1,0 +1,116 @@
+@media (max-width: 450px) {
+  #nav {
+    justify-content: space-between;
+    background-color: rgba(37, 37, 68, 0.629);
+    border: 0;
+  }
+  .storeName {
+    border-radius: 5px;
+    background-color: skyblue;
+    height: 90%;
+  }
+  #logoArea {
+    height: 150px;
+  }
+  #logoArea > h1 {
+    top: 20px;
+    font-size: 30px;
+  }
+  #logoArea > h2 {
+    top: 70px;
+    font-size: 25px;
+  }
+  #searchParent {
+    width: 100%;
+  }
+  #navlist {
+    display: none;
+  }
+  .fa-cart-shopping {
+    border: 2px solid skyblue;
+  }
+  #smallMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 8px;
+  }
+  #smallMenu > div {
+    width: 16px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-bottom: 2px solid brown;
+  }
+  .smallMenuDiv {
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    background-color: cadetblue;
+    color: white;
+    font-weight: bold;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 2px;
+    z-index: 1;
+  }
+  #smallMenuList {
+    display:block;
+    list-style: none;
+    padding: 5px;
+  }
+  #smallMenuItems {
+    padding: 16px;
+  }
+  #smallMenuItems:hover {
+    padding: 4px;
+  }
+  .categoryParent {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 12px;
+  }
+  .categoryCard {
+    width: 45%;
+    height: 36px;
+    background-color: white;
+    border-radius: 5px;
+  }
+  .categoriesPhotoParent {
+    display: none;
+  }
+  #itemList {
+    width: 100%;
+  }
+  .itemCard {
+    width: 40%;
+  }
+  .detailCardParent {
+    min-height: 100vh;
+    height: fit-content;
+    padding-bottom: 12px;
+  }
+  .detailHeader {
+    justify-content: flex-end;
+  }
+  .detailHeader > h3 {
+    display: none;
+  }
+  .detailHeader > i {
+    margin-right: 12px;
+  }
+  .detailImageAndFact {
+    flex-direction: column;
+  }
+  .detailImageAndFact > img {
+    width: 50%;
+    height: 50%;
+  }
+  .detailFact > p {
+    margin-left: 12px;
+    max-width: 300px;
+  }
+}

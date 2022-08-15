@@ -1,0 +1,60 @@
+/* for animation */
+@keyframes wipeUp {
+  0% {
+    transform: scaleX(0);
+  }
+  50% {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes detailAndSectionCart {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes cartItemShowUp {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes h1 {
+  from {
+    left: 0;
+  }
+  to {
+    left: 12%;
+  }
+}
+
+@keyframes h2 {
+  from {
+    right: 0;
+  }
+  to {
+    right: 12%;
+  }
+}
+
+@keyframes effect {
+  0% {
+    filter: brightness(100%);
+    transform: scale(1);
+  }
+  50% {
+    filter: brightness(120%);
+    transform: scale(1.4);
+  }
+  100% {
+    filter: brightness(100%);
+    transform: scale(1);
+  }
+}
