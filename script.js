@@ -168,6 +168,7 @@ const itemFun = (data) => {
   });
 
   //for itemCard animation
+  //for itemCard animation
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
